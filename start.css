@@ -1,0 +1,84 @@
+@charset "utf-8"
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,
+code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,
+form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,
+figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+body {
+  background:#394531;
+}
+.header{
+  position:fixed;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  width:100%;
+  height:100px;
+  padding:10px;
+  z-index:2;
+}
+.title{
+  font-size:40px;
+  top:5px;
+  text-align:center;
+  color:white;
+  position:absolute;
+  left:50%;
+  width:400px;
+  margin-left:-200px;
+}
+#w{
+  color:white;
+  text-decoration:none;
+}
+.start{
+  position:absolute;
+  width:100%;
+  height:auto;
+  top:50px;
+  left:0px;
+  bottom:0px;
+}
+.btt {
+  position:relative;
+  font-size:20px;
+  color:#fff;
+  width:150px;
+  height:200px;
+  font-weight:bold;
+  background: url("../image/btt.png");
+  background-color: #E13334;
+  border:3px solid #E13334;
+  text-align:center #E13334;
+  text-decoration:none;
+}
+.btt:hover {
+  color:#E13334;
+  transition-property:all;
+  transition-duration:0.3s;
+  transition-timing-function:ease-in-out;
+  transition-delay:0;
+}
+#create:hover {
+  background: url("../image/btt1.png");
+  background-color:#fff;
+  opacity: 0.6;
+  background-size: 100% 100%;
+}
+#join:hover {
+  background: url("../image/btt2.png");
+  background-color:#fff;
+  opacity: 0.6;
+  background-size: 100% 100%;
+}
+ul {list-style-type:none; text-align:center; margin-top:200px; margin-left:50px;}
+ul li {display:inline-block; margin-right:100px;}
